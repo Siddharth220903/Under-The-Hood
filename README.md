@@ -18,7 +18,7 @@ This function returns a list which consists of coefficients to be multiplied to 
 ### 4. logistic_regression:
 This function returns the predictions that it make. The idea used is that if the value obtained by using sigmoid function is greater than 1/2 then the predicted value will be assigned value 1, else the output will be assigned 0. The model learns from training set and is then applied on validation set.
 ### 5. driver_func: 
-This function acts as a driver function, that calls all other functions appropriately and returns the final values that are predicted by our model. 
+This function acts as a driver function, that calls all other functions appropriately and returns the final outputs that are predicted by our model. 
 
 ## Call for driver function:
 The driver function is called with appropriate values of learning rate and number of epochs/iterations. 
